@@ -243,7 +243,7 @@
   top: 138.581%;
   left: 23.93%;
   text-transform: uppercase;
-  height: 2.55%;
+  height: 0.5em;
 }
 .tachen {
   background-image: url(../img/tachen/tachen__bg.jpg);
@@ -344,10 +344,12 @@
   flex-direction: column;
   gap: 17px;
 }
+.text__container {
+  max-width: 430px;
+  margin-bottom: 41px;
+}
 .footer__text {
-  max-width: 400px;
-  line-height: 30px;
-  margin-bottom: 24px;
+  padding: 7px;
 }
 .footer__label {
   position: relative;
@@ -458,8 +460,9 @@
     margin-bottom: 250px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1088px) {
   .avone__text {
+    top: 79.581%;
     left: 5.93%;
   }
 }
@@ -502,11 +505,22 @@
     align-items: center;
     text-align: center;
   }
+  .footer__list-item {
+    gap: 36px;
+  }
+  .footer__address {
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 480px) {
   .category__btn {
     font-size: 13px;
 
     padding: 3px 18px;
+  }
+}
+@media (max-width: 650px) {
+  .avone__text {
+    /* left: -6.07%; */
   }
 }
