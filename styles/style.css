@@ -519,8 +519,3 @@
     padding: 3px 18px;
   }
 }
-@media (max-width: 650px) {
-  .avone__text {
-    /* left: -6.07%; */
-  }
-}
